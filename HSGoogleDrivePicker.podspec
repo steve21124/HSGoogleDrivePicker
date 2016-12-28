@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
  
   s.requires_arc = true
   s.dependency 'AsyncImageView'
-  s.dependency 'GoogleAPIClient/Drive'
+  s.dependency 'GoogleAPIClient/Drive', :podspec=> 'https://raw.githubusercontent.com/google/google-api-objectivec-client/master/GoogleAPIClient.podspec'
   s.dependency 'Google/SignIn'
   s.dependency 'SVPullToRefresh'
 

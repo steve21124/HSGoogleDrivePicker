@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
 
   s.source       = { :git => "https://github.com/steve21124/HSGoogleDrivePicker.git" } 
-  s.source_files  = "HSGoogleDrivePicker/HSGoogleDrivePicker"
+  s.source_files  = "HSGoogleDrivePicker/HSGoogleDrivePicker/**/*.{m,h}"
  
   s.requires_arc = true
   s.dependency 'AsyncImageView'
